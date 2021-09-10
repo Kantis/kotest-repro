@@ -11,7 +11,8 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib"))
-    testImplementation("io.kotest", "kotest-runner-junit5", "4.6.0")
+    testImplementation("io.kotest", "kotest-runner-junit5", "4.6.2")
+    testImplementation("io.kotest", "kotest-framework-datatest", "4.6.2")
 }
 
 tasks.withType<Test> {
